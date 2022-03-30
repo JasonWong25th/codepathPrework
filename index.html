@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+    -->
+    <meta charset="utf-8" />
+
+    <title>Light and Sound Game</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+
+
+        <h1 class="title">Light and Sound Game</h1>
+
+        <div class="instructions">
+          <p>
+            Welcome to the light and sound game :) Repeat back the patterns by pressing the buttons
+          </p>
+        </div>
+
+        <button id="startBtn" onclick = "startGame()">Start</button>
+        <button id="stopBtn" onclick = "stopGame()" class = "hidden">Stop</button>
+        <h2 id="strike1" class = "hidden">X</h2>
+        <h2 id="strike2" class = "hidden">X</h2>
+        <h2 id="strike3" class = "hidden">X</h2>
+
+
+        <div id = "gameButtonArea">
+          <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"
+
+></button>
+          <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"
+
+></button>
+          <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"
+
+></button>
+          <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"
+
+></button>
+          
+        </div>
+
+    
+  </body>
+</html>
