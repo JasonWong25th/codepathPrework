@@ -44,16 +44,20 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+    w3schools
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+    A challenge was figuring out why there was a bug in my win game behavior. Even though the user had pressed the correct pattern, it had kept looping the 8 square. Since my code wasn’t triggering the win condition, I had worked backward to find the reason why it wasn’t calling the function. In my game logic/ “guess” function I had realized that I didn’t update the progress variable correctly which was the reason why it was never entering the conditional I had set up. Another challenge was creating the mistakes allowed for the game. I had a slight difficulty with aligning them on the screen. I had resolved this issue by looking online on google and going to the website w3school.com which has documentation and examples of things to do in HTML, CSS, and javascript.
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+    What’s the best way to streamline your web pages while still creating unique specific content for that page?
+    How to host a website on a server and make a leaderboard possible?
+    How to manage an extensive amount of data collected from users on a website?
+    What are the best use cases for other companies' API and when should people build their own programs?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+    Given a few more hours to work on this project, I would add a feature that allowed players to pick a song instead of it being random or preset from the start. This means allowing either creating custom patterns per song or a function that scrapes songs from youtube and another function that converts the sound into a playable pattern. I would also include the timer feature that was mentioned as the optional feature that I didn’t have time to implement. 
 
 
 
