@@ -4,8 +4,7 @@
 
 Submitted by: **Jason Wong**
 
-Time spent: **2** hours spent in total
-
+Time spent: **5** hours spent in total
 Link to project: (insert your link here, should start with https://glitch.com...)
 
 ## Required Functionality
@@ -47,7 +46,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     w3schools
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-    A challenge was figuring out why there was a bug in my win game behavior. Even though the user had pressed the correct pattern, it had kept looping the 8 square. Since my code wasn’t triggering the win condition, I had worked backward to find the reason why it wasn’t calling the function. In my game logic/ “guess” function I had realized that I didn’t update the progress variable correctly which was the reason why it was never entering the conditional I had set up. Another challenge was creating the mistakes allowed for the game. I had a slight difficulty with aligning them on the screen. I had resolved this issue by looking online on google and going to the website w3school.com which has documentation and examples of things to do in HTML, CSS, and javascript.
+   A challenge was figuring out why there was a bug in my win game behavior. Even though the user had pressed the correct pattern, it had kept looping the 8 square. Since my code wasn’t triggering the win condition, I had worked backward to find the reason why it wasn’t calling the function. In my game logic/ “guess” function I had realized that I didn’t update the progress variable correctly which was the reason why it was never entering the conditional I had set up. Another challenge was creating the mistakes allowed for the game. I had a slight difficulty with aligning them on the screen. I had resolved this issue by looking online on google and going to the website w3school.com which has documentation and examples of things to do in HTML, CSS, and javascript. Another challenge that I had encountered that I was able to solve was the randomly generated pattern for the optional feature. I was unfamiliar with the javascript syntax so I had looked on the w3schools website for how to add items to a javascript list which turned out very similar to python’s list. While I did encounter a few challenges it was an overall rewarding experience seeing the final product and my hard work compiled into this project.
+
 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
@@ -55,9 +55,13 @@ If you recorded multiple GIFs for all the implemented features, you can add them
     How to host a website on a server and make a leaderboard possible?
     How to manage an extensive amount of data collected from users on a website?
     What are the best use cases for other companies' API and when should people build their own programs?
+    Which is in higher demand: frontend development or backend development?
+    How to best test the UI and how intuitive the front-end development is?
+    How well does frontend design translates to other UIs on different products such as mobile app development, games, and Virtual reality applications? 
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-    Given a few more hours to work on this project, I would add a feature that allowed players to pick a song instead of it being random or preset from the start. This means allowing either creating custom patterns per song or a function that scrapes songs from youtube and another function that converts the sound into a playable pattern. I would also include the timer feature that was mentioned as the optional feature that I didn’t have time to implement. 
+    Given a few more hours to work on this project, I would add a feature that allowed players to pick a song instead of it being random or preset from the start. This means allowing either creating custom patterns per song or a function that scrapes songs from youtube and another function that converts the sound into a playable pattern. I would also include the timer feature that was mentioned as the optional feature that I didn’t have time to implement. I would also like to add a theme to the memory game so it’s that it’s more than just memorizing colors. Potentially the theme would be correlated to an educational aspect like randomizing the buttons each turn and having images associated with them. An example would be like each button is a letter on the alphabet or the planets in the solar system.
 
 
 
